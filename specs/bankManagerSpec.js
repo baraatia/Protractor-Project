@@ -57,7 +57,7 @@ describe('Checking bank manager module functions', function () {
         expect(generalHelper.getElementText(bankManagerPage.accountNumlastrow(), "account value for the first row inside customers table")).toBe('');
     });
 
-    fit('should be able to delete customer account successfully', function () {
+    it('should be able to delete customer account successfully', function () {
         var customerName = bankManagerHelper.addKnownCustomerName();
         generalHelper.clickElement(bankManagerPage.customersTab(), "customers tab click");
         generalHelper.scrollTo(bankManagerPage.accountNumlastrow());
