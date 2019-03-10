@@ -32,7 +32,7 @@ describe('Checking bank manager module functions', function () {
      to prevint the scenarios dependencies, there must be work around by clearing the cookies inside this spec using (Afterall)
      , also i tried to switch (restartBrowserBetweenTests) to off for this scenario by using (browser.restartBrowserBetweenTests(false)),
       but it seems its not supported yet from protractor, although the scenario can be run successfully when its alone by putting "f" letter before "it" to be "fit" 
-      ,its switch the focus for this command only.*/  
+      ,its switch the focus for this "it" scenario only.*/  
     // it('should be able to add account to last customer', function () { 
     //     bankManagerHelper.addKnownCustomerName();
     //     generalHelper.clickElement(bankManagerPage.addAccountTab(), "Add account tab click");
