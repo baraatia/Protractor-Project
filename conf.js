@@ -4,7 +4,7 @@ exports.config = {
     directConnect: true,
     capabilities: {
         browserName: 'chrome',
-        specs: 'specs/bankManagerSpec.js',
+        specs: 'specs/*.js',
     },
     framework: 'jasmine',
     useAllAngular2AppRoots: true,
