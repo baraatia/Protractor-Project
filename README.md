@@ -58,6 +58,16 @@ it('should display the selected user inside ')
 ```
 we make our describe based on what to test and the prerequisite for the set of scenarios. 
 
+2- under bank manager spec file there several scenarios test the functionality of bank manager functions (add customer, add account, view all users)
+Examples:
+```
+it('should be able to add customer')
+```
+
+```
+it('should be able to add account to last customer')
+```
+
 
 ## Built With
 
