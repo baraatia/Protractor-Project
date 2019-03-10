@@ -10,7 +10,9 @@ The bank manager should be able to do the following:
 Create customer.
 Create bank account.
 View all users.
-The project contains a several automation scenario for both user types.## Getting Started
+The project contains a several automation scenario for both user types.
+
+## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
